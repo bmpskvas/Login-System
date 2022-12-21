@@ -1,0 +1,31 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A software where users can make a Login_System list and a schedule for themselves.",
+  "main": "main.js",
+  "devDependencies": {
+    "csv-write-stream": "^2.0.0",
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "fs": "^0.0.1-security",
+    "python-shell": "^3.0.1",
+    "requirejs": "^2.3.6"
+  },
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush-on-GIT/Login_System.git"
+  },
+  "author": "Piyush Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Piyush-on-GIT/Login_System/issues"
+  },
+  "homepage": "https://github.com/Piyush-on-GIT/Login_System#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.4"
+  }
+}
